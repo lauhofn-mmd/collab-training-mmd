@@ -7,26 +7,36 @@ body{
     height: auto;
 }
 
+img {
+    width: 100%;
+}
+
 /* Navigationslinje */
 
-.flex-navigation { 
-    display: flex;
-    flex-direction: row;
-}
+    .flex-navigation { 
+        display: flex;
+        flex-direction: row;
+    }
 
-.flex-item { /* Navigationselementer */ 
-    background-color: #97f179;
-    color: #265118;
-    font-weight: bold;
-    font-family: 'Lucida Sans';
-    padding: 10px;
-    font-size: 15px;
-    text-align: center;
-    width: 100%;
+    .nav-item { /* Navigationselementer */ 
+        background-color: #a83721;
+        color: #f4f4f4;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
 
-    transition-property: font-size; /* hover animation */
-    transition-duration: 0.5s;
-}
+        transition-property: font-size; /* hover animation */
+        transition-duration: 0.3s;
+    }
 
+    .nav-link { /* Links på navigationselementer */
+        color: #f4f4f4;
+    }
+
+    .nav-link:hover { /* Hover animation af tekst på navigation */
+      text-decoration: underline;
+    }
 
 /* Navigationslinje */
