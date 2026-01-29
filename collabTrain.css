@@ -6,3 +6,27 @@ body{
     width: 600px;
     height: auto;
 }
+
+/* Navigationslinje */
+
+.flex-navigation { 
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item { /* Navigationselementer */ 
+    background-color: #97f179;
+    color: #265118;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+
+    transition-property: font-size; /* hover animation */
+    transition-duration: 0.5s;
+}
+
+
+/* Navigationslinje */
